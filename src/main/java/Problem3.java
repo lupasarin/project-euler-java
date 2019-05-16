@@ -5,11 +5,11 @@
  * What is the largest prime factor of the number 600851475143 ?
  */
 public class Problem3 {
-    public static void main(String[] args) {
+    public int solve() {
         long num = 600851475143L;
-        long largest = -1;
+        int largest = -1;
         long copy = num;
-        for (long i = 2; i < Math.sqrt(num); i++) {
+        for (int i = 2; i < Math.sqrt(num); i++) {
             if (copy == 1L) {
                 break;
             }
@@ -18,6 +18,11 @@ public class Problem3 {
                 largest = i;
             }
         }
-        System.out.println("Result: " + largest);
+        return largest;
+    }
+
+    public static void main(String[] args) {
+        int result = new Problem3().solve();
+        System.out.println("Result: " + result);
     }
 }

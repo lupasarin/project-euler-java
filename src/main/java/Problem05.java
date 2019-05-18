@@ -7,7 +7,7 @@ import java.util.Map;
  * 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
  * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
  */
-public class Problem5 {
+public class Problem05 {
     public int solve() {
         Map<Integer, Integer> factors = new HashMap<>();
 
@@ -44,7 +44,7 @@ public class Problem5 {
     public static void main(String[] args) {
         // 1 2 3 4 5 6 7 8 9 10 -> 2,3,2^2,5,2*3,7,2^3,3^2,2*5
         // 2^3,3^2,5,7 -> 8*9*5*7 = 2520
-        int result = new Problem5().solve();
+        int result = new Problem05().solve();
         System.out.println("Result: " + result);
     }
 }

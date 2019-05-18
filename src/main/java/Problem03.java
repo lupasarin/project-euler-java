@@ -4,7 +4,7 @@
  * The prime factors of 13195 are 5, 7, 13 and 29.
  * What is the largest prime factor of the number 600851475143 ?
  */
-public class Problem3 {
+public class Problem03 {
     public int solve() {
         long num = 600851475143L;
         int largest = -1;
@@ -22,7 +22,7 @@ public class Problem3 {
     }
 
     public static void main(String[] args) {
-        int result = new Problem3().solve();
+        int result = new Problem03().solve();
         System.out.println("Result: " + result);
     }
 }

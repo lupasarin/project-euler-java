@@ -4,7 +4,7 @@
  * By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
  * What is the 10001st prime number?
  */
-public class Problem7 {
+public class Problem07 {
     public int solve() {
         int primeCount = 0;
         int current = 1;
@@ -27,7 +27,7 @@ public class Problem7 {
     }
 
     public static void main(String[] args) {
-        int result = new Problem7().solve();
+        int result = new Problem07().solve();
         System.out.println("Result: " + result);
     }
 }

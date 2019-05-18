@@ -24,7 +24,7 @@
  * 71636269561882670428252483600823257530420752963450
  * Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
  */
-public class Problem8 {
+public class Problem08 {
     final String input =
         "73167176531330624919225119674426574742355349194934"+
         "96983520312774506326239578318016984801869478851843"+
@@ -68,7 +68,7 @@ public class Problem8 {
     }
 
     public static void main(String[] args) {
-        long result = new Problem8().solve();
+        long result = new Problem08().solve();
         System.out.println("Result: " + result);
     }
 }
